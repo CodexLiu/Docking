@@ -54,8 +54,8 @@ pyrosetta.init()
 
 df = pd.read_csv('sequences.csv')
 
-output_folder = r'/mnt/c/General/Code/Docking/output/'
-original_pdb_path = r'/mnt/c/General/Code/Docking/input/inputchainfix.pdb'
+output_folder = r'output/'
+original_pdb_path = r'inputchainfix.pdb'
 chain = 'B'
 start_residue = 169
 end_residue = 179
