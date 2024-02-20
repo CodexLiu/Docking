@@ -61,7 +61,7 @@ start_residue = 169
 end_residue = 179
 
 for index, row in df.iterrows():
-    modified_pdb_path = f'/mnt/c/General/Code/Docking/temp/modified_structure_{index}.pdb'
+    modified_pdb_path = f'temp/modified_structure_{index}.pdb'
     
     modify_residues_in_pdb(original_pdb_path, modified_pdb_path, row['Sequence'], start_residue, chain)
 
